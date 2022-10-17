@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# this file uses while loop to print Best school.
+
+var=0
+while [ "$var" -lt "10" ];
+do
+	echo "Best School"
+	(("var +=1"))
+done
